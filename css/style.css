@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+body {
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: #311E0C;
+    text-decoration: none;
+    
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.menu a {
+    font-family: 'Sarala', sans-serif;
+    color: #FFD9DA;
+}
+.logo h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Emilys Candy', cursive;;
+    
+}
+
+.logo span {
+    color: #CC7178;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.area-title h3 {
+    color: #FFD9DA;
+    font-weight: normal;
+    
+}
+
+.area-title h1{
+    color:#CC7178;
+    font-size: 45px ;
+    line-height: 50px;
+    margin-top: -16px;
+}
+
+.area-title a {
+    display: inline-block;
+    background-color: #790237;
+    padding: 15px 60px;
+    color: #FFD9DA;
+    font-size: 20px;
+}
+
+
+
+.image1 img {
+    width: 800px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 10px;
+
+}
+
+.section-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.section-cards h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 80px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #CC7178;
+    width: 180px;
+    height: 200px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.card:hover {
+    background-color: #790237;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.section-3{
+    background-color: #790237;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.area-title-2 h1 {
+    color: #FFD9DA;
+    font-size: 35px;        
+}
+
+.area-title-2 h3 {
+    color: #FFD9DA;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: -26px;
+}
+
+.area-title-2 a {
+    display: inline-block;
+    background-color: #311E0C;
+    padding: 20px 85px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #FFD9DA;
+}
+
+.image2 img{
+    width: 280px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.area-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area-form h2 {
+    color: #FFD9DA;
+    text-align: center;
+
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+       
+}
+
+.formulario input {
+    margin-top:  20px;
+    padding-left: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    
+
+
+}
+
+input::placeholder {
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+
+    
+}
+
+input[type="submit"] {
+    background: #790237;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FFD9DA;
+    height: 55px;
+    font-family: 'Oswald';
+    cursor: pointer;
+
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.social h3{
+
+    color: #FFD9DA;
+    font-weight: normal;
+}
+
+.social img {
+    width: 30px;
+    margin-left: 15px;
+    color: #FFD9DA;
+}
